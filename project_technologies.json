@@ -1,13 +1,16 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "web speech"
         ],
         "platforms": [
-            "insert platforms"
+			"osx",
+            "google chrome"
         ],
         "toolkits": [
-            "insert toolkits"
+			"openframeworks",
+			"syphon",
+			"madmapper"
         ]
     },
     "themes": [

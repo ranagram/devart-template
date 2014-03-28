@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 7.0, 74.0, 1710.0, 932.0 ],
+		"rect" : [ 7.0, 74.0, 1475.0, 952.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -730,13 +730,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-131",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 958.0, 315.0, 70.0, 28.0 ],
-					"text" : "helloworld.aif"
+					"patching_rect" : [ 958.0, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -745,13 +744,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-129",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 868.5, 315.0, 70.0, 28.0 ],
-					"text" : "helloworld.aif"
+					"patching_rect" : [ 868.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -760,13 +758,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-127",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 780.5, 315.0, 70.0, 28.0 ],
-					"text" : "helloworld.aif"
+					"patching_rect" : [ 780.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -780,7 +777,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 692.5, 315.0, 70.0, 16.0 ],
-					"text" : "loop.wav"
+					"text" : "0"
 				}
 
 			}
@@ -789,13 +786,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-123",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 595.5, 315.0, 70.0, 28.0 ],
-					"text" : "glass-break3.wav"
+					"patching_rect" : [ 595.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -804,13 +800,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-121",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 508.0, 315.0, 70.0, 28.0 ],
-					"text" : "glass-break3.wav"
+					"patching_rect" : [ 508.0, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -819,13 +814,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-119",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.5, 315.0, 70.0, 28.0 ],
-					"text" : "glass-break3.wav"
+					"patching_rect" : [ 418.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -834,13 +828,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-117",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.5, 315.0, 70.0, 28.0 ],
-					"text" : "glass-break3.wav"
+					"patching_rect" : [ 330.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -849,13 +842,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-115",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.5, 315.0, 70.0, 40.0 ],
-					"text" : "1395903832880.wav"
+					"patching_rect" : [ 242.5, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -864,13 +856,12 @@
 					"fontname" : "ヒラギノ角ゴ ProN W3",
 					"fontsize" : 12.0,
 					"id" : "obj-114",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 315.0, 70.0, 28.0 ],
-					"text" : "helloworld.aif"
+					"patching_rect" : [ 155.0, 315.0, 70.0, 16.0 ],
+					"text" : "0"
 				}
 
 			}
@@ -2543,7 +2534,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1682.5, 149.0, 79.0, 16.0 ],
-					"text" : "sound5.aif"
+					"text" : "0"
 				}
 
 			}
@@ -2557,7 +2548,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1550.0, 149.0, 79.0, 16.0 ],
-					"text" : "sound4.aif"
+					"text" : "0"
 				}
 
 			}
@@ -2571,7 +2562,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1413.0, 149.0, 79.0, 16.0 ],
-					"text" : "sound3.aif"
+					"text" : "0"
 				}
 
 			}
@@ -2585,7 +2576,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1270.0, 149.0, 79.0, 16.0 ],
-					"text" : "sound2.aif"
+					"text" : "0"
 				}
 
 			}
@@ -2599,7 +2590,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1125.0, 149.0, 79.0, 16.0 ],
-					"text" : "sound1.aif"
+					"text" : "0"
 				}
 
 			}
@@ -2629,7 +2620,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 123.0, 144.0, 16.0 ],
-					"text" : "helloworld.aif"
+					"text" : "0"
 				}
 
 			}
@@ -6020,7 +6011,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MyBuffer2.maxpat",
-				"bootpath" : "/Users/naokis/Sites/devart-template/project_code/max/src",
+				"bootpath" : "/Users/naokis/Dropbox/Codes/MAX",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6028,13 +6019,13 @@
 , 			{
 				"name" : "Foreverb.gendsp",
 				"bootpath" : "/Users/naokis/Dropbox/maxfiles/bin",
-				"patcherrelativepath" : "../../../../../Dropbox/maxfiles/bin",
+				"patcherrelativepath" : "../../maxfiles/bin",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MyDelay2.maxpat",
-				"bootpath" : "/Users/naokis/Sites/devart-template/project_code/max/src",
+				"bootpath" : "/Users/naokis/Dropbox/Codes/MAX",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

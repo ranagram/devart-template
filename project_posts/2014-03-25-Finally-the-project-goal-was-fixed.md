@@ -3,4 +3,4 @@ Rough sketch is here.
 
 ![Rough sketch](../project_images/post6.jpg?raw=true "Rough sketch")
 
-This is the guest book which is written by visitor's voice using Webspeech API. We make speech to a microphone, the texts will be projected to the screen and will be inhaled to the actual notebook, which is put on the table. The texts in stored on the data base will be flowing out to the screen when the book is opened.
+This is the guest book which is written by visitor's voice using Webspeech API. When the visitor speeches to a microphone, their voice will be transformed into 3D texts on the screen. The texts will be inhaled to an actual notebook on the table then be stored on the data base. When the book is opened, they will be flowing out to the screen with its voice.

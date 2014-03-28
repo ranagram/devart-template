@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C4BE129-C138-4248-BAA6-0A0DE583FE75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheBookOfVoices</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D40341E-DE57-4DCE-8C55-2913B711BD4F</key>
+		<string>ssh://myvps/var/lib/git/public_git/DevArtStudy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheBookOfVoices.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D40341E-DE57-4DCE-8C55-2913B711BD4F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://myvps/var/lib/git/public_git/DevArtStudy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D40341E-DE57-4DCE-8C55-2913B711BD4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D40341E-DE57-4DCE-8C55-2913B711BD4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheBookOfVoices</string>
+		</dict>
+	</array>
+</dict>
+</plist>

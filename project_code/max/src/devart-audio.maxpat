@@ -29,6 +29,60 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "ヒラギノ角ゴ ProN W3",
+					"fontsize" : 12.0,
+					"id" : "obj-126",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 975.0, 90.0, 27.0, 18.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "ヒラギノ角ゴ ProN W3",
+					"fontsize" : 12.0,
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1035.0, 90.0, 27.0, 18.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1035.0, 120.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "ヒラギノ角ゴ ProN W3",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1035.0, 162.0, 56.0, 16.0 ],
+					"text" : "loop $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-155",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -2340,7 +2394,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 975.0, 714.0, 640.0, 480.0 ],
+						"rect" : [ 867.0, 659.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2517,10 +2571,10 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 150.0, 45.0, 173.0, 18.0 ],
-					"text" : "OSC-route /realtime /stock"
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 150.0, 45.0, 209.0, 18.0 ],
+					"text" : "OSC-route /realtime /stock /stop"
 				}
 
 			}
@@ -2534,7 +2588,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1682.5, 149.0, 79.0, 16.0 ],
-					"text" : "0"
+					"text" : "sound5.aif"
 				}
 
 			}
@@ -2548,7 +2602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1550.0, 149.0, 79.0, 16.0 ],
-					"text" : "0"
+					"text" : "sound4.aif"
 				}
 
 			}
@@ -2562,7 +2616,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1413.0, 149.0, 79.0, 16.0 ],
-					"text" : "0"
+					"text" : "sound3.aif"
 				}
 
 			}
@@ -2576,7 +2630,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1270.0, 149.0, 79.0, 16.0 ],
-					"text" : "0"
+					"text" : "sound2.aif"
 				}
 
 			}
@@ -2590,7 +2644,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1125.0, 149.0, 79.0, 16.0 ],
-					"text" : "0"
+					"text" : "sound1.aif"
 				}
 
 			}
@@ -3762,6 +3816,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-112", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3875,6 +3938,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 702.0, 333.0, 702.0, 333.0 ],
 					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -4488,6 +4560,56 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1044.5, 240.0, 1107.0, 240.0, 1107.0, 363.0, 1134.5, 363.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1044.5, 240.0, 1107.0, 240.0, 1107.0, 363.0, 1279.5, 363.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1044.5, 240.0, 1107.0, 240.0, 1107.0, 363.0, 1422.5, 363.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1044.5, 240.0, 1107.0, 240.0, 1107.0, 363.0, 1559.5, 363.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1044.5, 240.0, 1107.0, 240.0, 1107.0, 363.0, 1692.0, 363.0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -5596,10 +5718,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 236.5, 75.0, 1134.5, 75.0 ],
+					"midpoints" : [ 222.833328, 75.0, 1134.5, 75.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -5776,6 +5916,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 1299.5, 273.0, 1329.5, 273.0 ],
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-86", 0 ]
 				}
 
 			}
@@ -6011,27 +6160,120 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MyBuffer2.maxpat",
-				"bootpath" : "/Users/naokis/Dropbox/Codes/MAX",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Foreverb.gendsp",
-				"bootpath" : "/Users/naokis/Dropbox/maxfiles/bin",
-				"patcherrelativepath" : "../../maxfiles/bin",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MyDelay2.maxpat",
-				"bootpath" : "/Users/naokis/Dropbox/Codes/MAX",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "buffer~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "groove~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "info~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mstosamps~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "uzi.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "counter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "split.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "peek~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sampstoms~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sig~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "onebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ezdac~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "times~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gen~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "udpreceive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "delay.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "delay~.mxo",
 				"type" : "iLaX"
 			}
  ]

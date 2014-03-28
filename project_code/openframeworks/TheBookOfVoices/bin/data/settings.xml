@@ -1,0 +1,21 @@
+<group>
+	<Position_X>0</Position_X>
+	<Position_Z>686.625</Position_Z>
+	<Look_At_X>0</Look_At_X>
+	<Look_At_Z>0</Look_At_Z>
+	<String_Margin>8.5</String_Margin>
+	<Line_Space>23.25</Line_Space>
+	<Blank_Width>10</Blank_Width>
+	<Limit_Width>181.1</Limit_Width>
+	<focalDepth>0.0024</focalDepth>
+	<focalLength>0.0235</focalLength>
+	<fstop>0.025</fstop>
+	<showFocus>0</showFocus>
+<group/>
+<Position_Y>0</Position_Y>
+	<Look_At_Y>0</Look_At_Y>
+	<Radius_Bias>137.5</Radius_Bias>
+	<Fog_Start>390</Fog_Start>
+	<Fog_End>930</Fog_End>
+<Distance>450</Distance>
+</group>

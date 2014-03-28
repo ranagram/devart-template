@@ -1,0 +1,11 @@
+<group>
+	<Threshold>114.75</Threshold>
+	<Min_Radius>21.225</Min_Radius>
+	<Max_Radius>71.25</Max_Radius>
+<group/>
+<Start_X>495</Start_X>
+	<Start_Y>227</Start_Y>
+	<Width>206</Width>
+	<Height>130</Height>
+<Width_Limit>115</Width_Limit>
+</group>

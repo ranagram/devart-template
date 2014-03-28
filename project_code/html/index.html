@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Book Of Voices</title>
+</head>
+
+<body>
+<form>
+		<input type="button" value="Rec" onclick="rec.start()" />
+</form>
+<div id="recText"></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+var ws = new WebSocket("ws://localhost:9092");
+var rec = new webkitSpeechRecognition();
+var name = "";
+var message = "";
+rec.lang = "ja_JP";
+rec.interimResults = false;
+rec.continuous = false;
+rec.maxAlternatives = 10;
+
+rec.onstart = function()
+{
+	name = new Date().getTime();
+	ws.send("[[start]]:"+name);
+}
+
+rec.onend = function()
+{
+	if (message.length>0) {
+		console.log("send : "+message);
+		ws.send(message);
+	}else{
+		ws.send("[[noresult]]");
+	}
+}
+
+rec.onresult = function(event){
+	var results = event.results;
+	console.log(results.length);
+	var idx = results.length - 1;
+	if(results[idx].isFinal){
+		$("#recText").text(results[idx][0].transcript);
+		message = results[idx][0].transcript;
+		rec.stop();
+	}
+};
+
+ws.onmessage = function(event)
+{
+	if(event.data=="ok"){
+		console.log("ok");
+
+		$.ajax({
+			type: "POST",
+			url: "/words/regist.xml",
+			data: {'name' : name, 'content' : message},
+			success: function(data){
+			},
+		});
+
+		message = "";
+		rec.start();
+	}else if(event.data=="nothing"){
+		console.log("nothing");
+		message = "";
+		rec.start();
+	}
+}
+
+</script>
+</body>
+</html>

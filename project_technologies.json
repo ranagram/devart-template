@@ -5,15 +5,20 @@
         ],
         "platforms": [
 			"osx",
+			"ios",
             "google chrome"
         ],
         "toolkits": [
+			"javascript",
+			"php",
 			"openframeworks",
-			"syphon",
-			"madmapper"
+			"opencv",
+			"max",
         ]
     },
     "themes": [
-        "insert themes"
+		"Speech",
+		"Projection",
+        "Audio"
     ]
 }

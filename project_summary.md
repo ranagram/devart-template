@@ -17,8 +17,7 @@ The Book Of Voices
 - The texts will disappear when the book was closed.
 
 ## Images & Videos
-https://www.youtube.com/watch?v=xaP_xQpfVCg  
-Sound track: Stilzand by Marco Raaphorst (http://freemusicarchive.org/music/Marco_Raaphorst/~/Stilzand)
+https://www.youtube.com/watch?v=CP7IqEhMV9I
 
 ![Project Image1](project_images/image1.jpg?raw=true "Project Image1")
 ![Project Image2](project_images/image2.jpg?raw=true "Project Image2")

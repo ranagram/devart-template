@@ -4,21 +4,21 @@
             "web speech"
         ],
         "platforms": [
-			"osx",
-			"ios",
+            "osx",
             "google chrome"
         ],
         "toolkits": [
-			"javascript",
-			"php",
-			"openframeworks",
-			"opencv",
-			"max",
+            "javascript",
+            "php",
+            "openframeworks",
+            "opengl",
+            "opencv",
+            "max"
         ]
     },
     "themes": [
-		"Speech",
-		"Projection",
-        "Audio"
+        "Voice",
+        "Typography",
+        "Recording"
     ]
 }
